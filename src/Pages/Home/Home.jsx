@@ -15,7 +15,7 @@ function Home() {
       <div className="hero">
       <img src={hero_banner} alt="hero_banner"  className='banner_img'/>
       <div className="hero-caption">
-        <img src={hero_title} alt="hero_title" className='caption_img' />
+        <img src={hero_title} alt="hero_title" className='caption-img' />
         <p>The Protector" follows Kham, a martial artist, as he fights 
           criminals in Sydney to rescue his stolen elephants, showcasing
            intense action and loyalty</p>

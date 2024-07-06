@@ -5,6 +5,7 @@ import search_icon from '../../assets/search_icon.svg'
 import bell_icon from '../../assets/bell_icon.svg'
 import profile_img from '../../assets/profile_img.png'
 import caret_icon from '../../assets/caret_icon.svg'
+import { logOut } from '../../../Firebase'
 
 
 function Navbar() {
@@ -42,7 +43,7 @@ function Navbar() {
             <img src={profile_img} alt="profile_icon"  className='profile'/>
             <img src={caret_icon} alt="search_icon"  />
             <div className="dropdown">
-              <p>Signout</p>
+              <p onClick={()=>{logOut()}} >Signout</p>
             </div>
 
             </div>
